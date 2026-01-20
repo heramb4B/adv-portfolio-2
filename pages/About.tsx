@@ -10,7 +10,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="aspect-[4/5] rounded-lg overflow-hidden border-8 border-white shadow-xl relative z-10">
               <img
-                src="../img/img2.jpeg"
+                src="/img/img2.jpeg"
                 alt="Advocate Shital S. Deshmukh"
                 className="w-full h-full object-cover"
               />
