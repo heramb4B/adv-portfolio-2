@@ -1,6 +1,5 @@
-
-import React from 'react';
-import { User, Award, BookOpen } from 'lucide-react';
+import React from "react";
+import { User, Award, BookOpen } from "lucide-react";
 
 const About: React.FC = () => {
   return (
@@ -10,9 +9,9 @@ const About: React.FC = () => {
           {/* Image Side */}
           <div className="relative">
             <div className="aspect-[4/5] rounded-lg overflow-hidden border-8 border-white shadow-xl relative z-10">
-              <img 
-                src="https://picsum.photos/id/64/800/1000" 
-                alt="Advocate Shital S. Deshmukh" 
+              <img
+                src="../img/img2.jpeg"
+                alt="Advocate Shital S. Deshmukh"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -22,15 +21,25 @@ const About: React.FC = () => {
 
           {/* Content Side */}
           <div>
-            <h4 className="text-[#800000] font-bold uppercase tracking-widest text-sm mb-2">Legal Professional</h4>
-            <h2 className="text-4xl font-bold text-[#1a237e] serif-font mb-8">Adv. Shital Sanjabrao Deshmukh</h2>
-            
+            <h4 className="text-[#800000] font-bold uppercase tracking-widest text-sm mb-2">
+              Legal Professional
+            </h4>
+            <h2 className="text-4xl font-bold text-[#1a237e] serif-font mb-8">
+              Adv. Shital Sanjabrao Deshmukh
+            </h2>
+
             <div className="space-y-6 text-lg leading-relaxed text-[#333333]">
               <p>
-                Advocate Shital Sanjabrao Deshmukh is a law graduate from Pune, originally hailing from Buldhana, Maharashtra. She completed her LL.B. in 2025 and is a qualified AIBE Advocate.
+                Advocate Shital Sanjabrao Deshmukh is a law graduate from Pune,
+                originally hailing from Buldhana, Maharashtra. She completed her
+                LL.B. in 2025 and is a qualified AIBE Advocate.
               </p>
               <p>
-                She is currently practicing at the District and Sessions Court, Buldhana, handling matters with diligence, integrity, and a strong commitment to justice. Her legal journey reflects a balance of academic excellence, courtroom exposure, and grassroots engagement.
+                She is currently practicing at the District and Sessions Court,
+                Buldhana, handling matters with diligence, integrity, and a
+                strong commitment to justice. Her legal journey reflects a
+                balance of academic excellence, courtroom exposure, and
+                grassroots engagement.
               </p>
             </div>
 
@@ -39,7 +48,9 @@ const About: React.FC = () => {
                 <Award className="text-[#d4af37] h-8 w-8" />
                 <div>
                   <h5 className="font-bold text-[#1a237e]">AIBE Qualified</h5>
-                  <p className="text-sm text-gray-500">Certified Legal Advocate</p>
+                  <p className="text-sm text-gray-500">
+                    Certified Legal Advocate
+                  </p>
                 </div>
               </div>
               <div className="flex items-center gap-4 p-4 bg-white rounded shadow-sm">
