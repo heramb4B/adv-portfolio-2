@@ -1,5 +1,6 @@
 import React from "react";
 import { User, Award, BookOpen } from "lucide-react";
+// import profileImg from "../img/img2.jpeg";
 
 const About: React.FC = () => {
   return (
